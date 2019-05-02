@@ -39,31 +39,43 @@ class squares:
 class rectangles:
 
 
-    # def __int__(self,w,l):
-    #     self.w = w
-    #     self.l = l
+     def __int__(self,w,l):
+         self.w = w
+         self.l = l
 
-    # def AREA(self,l,w):
-    #     Area = W *l
+     def AREA(self):
+        w = self.w
+        l = self.l
+        A = W *l
+        print  (A) 
 
-    # def Periemeter(self,l,w):
-    #     periemeter = 2(L+w)
+
+     def Periemeter(self):
+        w = self.w
+        l = self.l
+        p = (2*w) + (2*l)
+        print(p)
 
 
         
             
           
 class spheres:
-    # def __int(self,R):
-    #     self.R = R
+     def __int(self,R):
+         self.r = r
 
 
-    # def SurfaceArea(self,R):
-    #     SurfaceArea  = 4*3.14*R*R
+     def SurfaceArea(self):
+        r =  self.r
+        SurfaceArea  = (4*3.14)*(r*r)
+        print(SurfaceArea)
 
 
-    # def volume(self,r):
-    #     volume = 4/3(3.14*r*r)
+     def volume(self):
+        r = self.r
+        volume = (4/3*3.14)*(r*r*r)
+        print(volume)
+
         
 
 
